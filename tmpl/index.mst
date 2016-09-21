@@ -1,0 +1,11 @@
+{{> before.mst}}
+
+{{#posts}}
+  <article class="bubble preview-bubble">
+    <h3 class="post-preview">
+      <a class="post-title" href="{{link}}">{{title}}</a>
+    </h3>
+  </article>
+{{/posts}}
+
+{{> after.mst}}

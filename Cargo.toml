@@ -1,0 +1,22 @@
+[package]
+name = "jude"
+version = "0.1.0"
+authors = ["Jude Taylor <me@jude.bio>"]
+
+[dependencies]
+iron = "*"
+router = "*"
+logger = "*"
+chrono = "*"
+rustache = "*"
+pulldown-cmark = "*"
+staticfile = "*"
+mount = "*"
+syntect = "*"
+
+r2d2 = "*"
+r2d2_postgres = "*"
+
+[dependencies.postgres]
+version = "*"
+features = ["chrono"]

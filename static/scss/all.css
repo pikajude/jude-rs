@@ -1,0 +1,62 @@
+/*
+Error: File to import not found or unreadable: font-awesome.
+       Load paths:
+         /Users/jude/.dev/Rust/jude-rs/bower_components/foundation-sites/scss
+         /Users/jude/.dev/Rust/jude-rs/css
+        on line 3 of css/all.scss
+
+1: @import 'settings';
+2: @import 'foundation';
+3: @import 'font-awesome';
+4: 
+5: @include foundation-global-styles;
+6: @include foundation-grid;
+7: @include foundation-forms;
+8: @include foundation-callout;
+
+Backtrace:
+css/all.scss:3
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/lib/ruby/gems/2.3.1/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/bin/sass:18:in `load'
+/nix/store/nmlpcfd08kwabbfipjylfwinj2kaai0x-sass-3.4.22/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: font-awesome.\A        Load paths:\A          /Users/jude/.dev/Rust/jude-rs/bower_components/foundation-sites/scss\A          /Users/jude/.dev/Rust/jude-rs/css\A         on line 3 of css/all.scss\A \A 1: @import 'settings';\A 2: @import 'foundation';\A 3: @import 'font-awesome';\A 4: \A 5: @include foundation-global-styles;\A 6: @include foundation-grid;\A 7: @include foundation-forms;\A 8: @include foundation-callout;"; }
