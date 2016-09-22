@@ -1,4 +1,4 @@
-{ postgresql, sass, rustPlatform, buildBowerComponents, writeTextDir }:
+{ postgresql, sass, rustPlatform, buildBowerComponents, writeTextDir, cmake }:
 
 let
   bowerPkgs = buildBowerComponents {
@@ -11,7 +11,7 @@ in rustPlatform.buildRustPackage {
   name = "jude.rs";
   depsSha256 = "1xaad12370jzxmlhajivbg6siifrhyyzvqjqzb6ll9hahldw8zlc";
   src = ./.;
-  buildInputs = [ postgresql sass ];
+  buildInputs = [ postgresql sass cmake ];
   shellHook = ''
     ln -sfv ${bowerPkgs}/bower_components .
   '';
