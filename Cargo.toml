@@ -6,6 +6,7 @@ authors = ["Jude Taylor <me@jude.bio>"]
 [dependencies]
 iron = "*"
 router = "*"
+# session = "*"
 logger = "*"
 chrono = "*"
 rustache = "*"
