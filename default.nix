@@ -9,7 +9,7 @@ let
 
 in rustPlatform.buildRustPackage {
   name = "jude.rs";
-  depsSha256 = "0pz77c9f6726d462jfmdqw5ba8xkaf4p93shm0kg09cpl7r7s6fmâ";
+  depsSha256 = "0pz77c9f6726d462jfmdqw5ba8xkaf4p93shm0kg09cpl7r7s6fm";
   src = ./.;
   buildInputs = [ postgresql sass cmake openssl ];
   shellHook = ''
